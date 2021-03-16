@@ -16,75 +16,127 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 // HTML
 <i class="icon icon-home"></i>
 */
-.icon-icon_menu__deal_default {
+.icon-icon_menu__business_default {
   background-image: url(sprite.png);
-  background-position: -60px -180px;
+  background-position: -30px 0px;
   width: 30px;
   height: 30px;
 }
-.icon-icon_menu__deal_default@2x {
+.icon-icon_menu__business_pressed {
   background-image: url(sprite.png);
-  background-position: -180px 0px;
-  width: 60px;
-  height: 60px;
-}
-.icon-icon_menu__deal_default@3x {
-  background-image: url(sprite.png);
-  background-position: 0px 0px;
-  width: 90px;
-  height: 90px;
-}
-.icon-icon_menu__deal_pressed {
-  background-image: url(sprite.png);
-  background-position: -90px -180px;
+  background-position: -60px 0px;
   width: 30px;
   height: 30px;
 }
-.icon-icon_menu__deal_pressed@2x {
+.icon-icon_menu__buyer_default {
   background-image: url(sprite.png);
-  background-position: -180px -60px;
-  width: 60px;
-  height: 60px;
+  background-position: 0px -31px;
+  width: 30px;
+  height: 30px;
 }
-.icon-icon_menu__deal_pressed@3x {
+.icon-icon_menu__buyer_pressed {
+  background-image: url(sprite.png);
+  background-position: -30px -31px;
+  width: 30px;
+  height: 30px;
+}
+.icon-icon_menu__calendar_default {
+  background-image: url(sprite.png);
+  background-position: -60px -31px;
+  width: 30px;
+  height: 30px;
+}
+.icon-icon_menu__calendar_pressed {
   background-image: url(sprite.png);
   background-position: -90px 0px;
-  width: 90px;
-  height: 90px;
-}
-.icon-icon_menu__survey_default {
-  background-image: url(sprite.png);
-  background-position: -120px -180px;
   width: 30px;
   height: 30px;
 }
-.icon-icon_menu__survey_default@2x {
+.icon-icon_menu__checklist_default {
   background-image: url(sprite.png);
-  background-position: -180px -120px;
-  width: 60px;
-  height: 60px;
-}
-.icon-icon_menu__survey_default@3x {
-  background-image: url(sprite.png);
-  background-position: 0px -90px;
-  width: 90px;
-  height: 90px;
-}
-.icon-icon_menu__survey_pressed {
-  background-image: url(sprite.png);
-  background-position: -150px -180px;
+  background-position: -90px -30px;
   width: 30px;
   height: 30px;
 }
-.icon-icon_menu__survey_pressed@2x {
+.icon-icon_menu__checklist_pressed {
   background-image: url(sprite.png);
-  background-position: 0px -180px;
-  width: 60px;
-  height: 60px;
+  background-position: 0px -61px;
+  width: 30px;
+  height: 30px;
 }
-.icon-icon_menu__survey_pressed@3x {
+.icon-icon_menu__customers_default {
   background-image: url(sprite.png);
-  background-position: -90px -90px;
-  width: 90px;
-  height: 90px;
+  background-position: -30px -61px;
+  width: 30px;
+  height: 30px;
+}
+.icon-icon_menu__customers_pressed {
+  background-image: url(sprite.png);
+  background-position: -60px -61px;
+  width: 30px;
+  height: 30px;
+}
+.icon-icon_menu__email_default {
+  background-image: url(sprite.png);
+  background-position: -90px -61px;
+  width: 30px;
+  height: 30px;
+}
+.icon-icon_menu__email_pressed {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 30px;
+  height: 31px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi) {
+  .icon-icon_menu__business_default {
+    background-image: url(sprite@2x.png);
+    background-size: 120px 91px;
+  }
+  .icon-icon_menu__business_pressed {
+    background-image: url(sprite@2x.png);
+    background-size: 120px 91px;
+  }
+  .icon-icon_menu__buyer_default {
+    background-image: url(sprite@2x.png);
+    background-size: 120px 91px;
+  }
+  .icon-icon_menu__buyer_pressed {
+    background-image: url(sprite@2x.png);
+    background-size: 120px 91px;
+  }
+  .icon-icon_menu__calendar_default {
+    background-image: url(sprite@2x.png);
+    background-size: 120px 91px;
+  }
+  .icon-icon_menu__calendar_pressed {
+    background-image: url(sprite@2x.png);
+    background-size: 120px 91px;
+  }
+  .icon-icon_menu__checklist_default {
+    background-image: url(sprite@2x.png);
+    background-size: 120px 91px;
+  }
+  .icon-icon_menu__checklist_pressed {
+    background-image: url(sprite@2x.png);
+    background-size: 120px 91px;
+  }
+  .icon-icon_menu__customers_default {
+    background-image: url(sprite@2x.png);
+    background-size: 120px 91px;
+  }
+  .icon-icon_menu__customers_pressed {
+    background-image: url(sprite@2x.png);
+    background-size: 120px 91px;
+  }
+  .icon-icon_menu__email_default {
+    background-image: url(sprite@2x.png);
+    background-size: 120px 91px;
+  }
+  .icon-icon_menu__email_pressed {
+    background-image: url(sprite@2x.png);
+    background-size: 120px 91px;
+  }
 }
