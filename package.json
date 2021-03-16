@@ -1,0 +1,23 @@
+{
+  "name": "postcss-lazysprite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.evertrust.com.tw/g3024/postcss-lazysprite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cli": "^1.0.1",
+    "gulp.spritesmith.3x": "^1.0.9"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "description": ""
+}
