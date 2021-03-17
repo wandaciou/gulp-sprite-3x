@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>sprite demo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="dist/sass/sprite.css" rel="stylesheet">
+    <style>
+      .icon {
+        display: inline-block;
+        line-height: 30px;
+      }
+      pre code {
+        background-color: #eee;
+        border: 1px solid #999;
+        display: block;
+        padding: 20px;
+      }
+     .title{
+        height: 30px;
+        line-height: 30px;
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="title"><div class="icon icon-icon_menu__megaphone_default"></div>使用div 標籤</div>
+    <pre>
+      <code>
+        &lt;div class="icon icon-icon_menu__megaphone_default"&gt;&lt;/div&gt;
+      </code>
+    </pre>
+
+    <div class="title"><i class="icon icon-icon_menu__megaphone_default"></i>使用 i 標籤</div>
+    <pre>
+      <code>
+        &lt;i class="icon icon-icon_menu__megaphone_default"&gt;&lt;/i&gt;
+      </code>
+    </pre>
+    <p>css需加上</p>
+    <pre>
+      <code>
+        .icon {
+          display: inline-block;
+        }
+      </code>
+    </pre>
+
+  </body>
+</html>

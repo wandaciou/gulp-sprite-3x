@@ -9,12 +9,12 @@ gulp.task('sprite', function() {
       retina3xSrcFilter: 'dist/img/*@3x.png',
       retina3xImgName: 'sprite@3x.png',
       imgName: 'sprite.png',
-      imgPath: '../img/sprite.png',
-      retinaImgPath: '../img/sprite@2x.png',
-      retina3xImgPath: '../img/sprite@3x.png',
-      cssName: 'sprites.css'
+      imgPath: '../img/sprite/sprite.png',
+      retinaImgPath: '../img/sprite/sprite@2x.png',
+      retina3xImgPath: '../img/sprite/sprite@3x.png',
+      cssName: 'sprite.css'
     }));
 
-  spriteData.img.pipe(gulp.dest('./dist/img/'));
-  spriteData.css.pipe(gulp.dest('./sass/'));
+  spriteData.img.pipe(gulp.dest('./dist/img/sprite/'));
+  spriteData.css.pipe(gulp.dest('./dist/sass/'));
 });
