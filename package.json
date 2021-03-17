@@ -13,13 +13,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cli": "^1.0.1",
+    "cli": "^1.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
     "gulp-cli": "^2.3.0",
     "gulp.spritesmith": "^6.11.0",
     "gulp.spritesmith.3x": "^1.0.9"
-  },
-  "devDependencies": {
-    "gulp": "^4.0.2"
   },
   "description": ""
 }

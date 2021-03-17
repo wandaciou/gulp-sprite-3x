@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var sprite = require('gulp.spritesmith.3x');
 
 gulp.task('sprite', function() {
-  var spriteData = gulp.src('dist/img/icon*.png')
+  var spriteData = gulp.src('dist/img/icon/*.png')
     .pipe(sprite({
       retinaSrcFilter: 'dist/img/icon/*@2x.png',
       retinaImgName: 'sprite@2x.png',
