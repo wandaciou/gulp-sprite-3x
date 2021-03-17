@@ -16,67 +16,95 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 // HTML
 <i class="icon icon-home"></i>
 */
-.icon-icon_menu__megaphone_default {
+.icon-icon_menu__deal_default {
   background-image: url(../img/sprite/sprite.png);
   background-position: 0px 0px;
   width: 30px;
   height: 30px;
 }
-.icon-icon_menu__megaphone_pressed {
+.icon-icon_menu__deal_pressed {
   background-image: url(../img/sprite/sprite.png);
   background-position: -30px 0px;
   width: 30px;
   height: 30px;
 }
-.icon-icon_menu__price_default {
+.icon-icon_menu__megaphone_default {
   background-image: url(../img/sprite/sprite.png);
   background-position: 0px -30px;
   width: 30px;
   height: 30px;
 }
-.icon-icon_menu__price_pressed {
+.icon-icon_menu__megaphone_pressed {
   background-image: url(../img/sprite/sprite.png);
   background-position: -30px -30px;
+  width: 30px;
+  height: 30px;
+}
+.icon-icon_menu__price_default {
+  background-image: url(../img/sprite/sprite.png);
+  background-position: -60px 0px;
+  width: 30px;
+  height: 30px;
+}
+.icon-icon_menu__price_pressed {
+  background-image: url(../img/sprite/sprite.png);
+  background-position: -60px -30px;
   width: 30px;
   height: 30px;
 }
 
 @media (-webkit-min-device-pixel-ratio: 2),
        (min-resolution: 192dpi) {
+  .icon-icon_menu__deal_default {
+    background-image: url(../img/sprite/sprite@2x.png);
+    background-size: 90px 60px;
+  }
+  .icon-icon_menu__deal_pressed {
+    background-image: url(../img/sprite/sprite@2x.png);
+    background-size: 90px 60px;
+  }
   .icon-icon_menu__megaphone_default {
     background-image: url(../img/sprite/sprite@2x.png);
-    background-size: 60px 60px;
+    background-size: 90px 60px;
   }
   .icon-icon_menu__megaphone_pressed {
     background-image: url(../img/sprite/sprite@2x.png);
-    background-size: 60px 60px;
+    background-size: 90px 60px;
   }
   .icon-icon_menu__price_default {
     background-image: url(../img/sprite/sprite@2x.png);
-    background-size: 60px 60px;
+    background-size: 90px 60px;
   }
   .icon-icon_menu__price_pressed {
     background-image: url(../img/sprite/sprite@2x.png);
-    background-size: 60px 60px;
+    background-size: 90px 60px;
   }
 }
 
 @media (-webkit-min-device-pixel-ratio: 3),
        (min-resolution: 288dpi) {
+  .icon-icon_menu__deal_default {
+    background-image: url(../img/sprite/sprite@3x.png);
+    background-size: 90px 60px;
+  }
+  .icon-icon_menu__deal_pressed {
+    background-image: url(../img/sprite/sprite@3x.png);
+    background-size: 90px 60px;
+  }
   .icon-icon_menu__megaphone_default {
     background-image: url(../img/sprite/sprite@3x.png);
-    background-size: 60px 60px;
+    background-size: 90px 60px;
   }
   .icon-icon_menu__megaphone_pressed {
     background-image: url(../img/sprite/sprite@3x.png);
-    background-size: 60px 60px;
+    background-size: 90px 60px;
   }
   .icon-icon_menu__price_default {
     background-image: url(../img/sprite/sprite@3x.png);
-    background-size: 60px 60px;
+    background-size: 90px 60px;
   }
   .icon-icon_menu__price_pressed {
     background-image: url(../img/sprite/sprite@3x.png);
-    background-size: 60px 60px;
+    background-size: 90px 60px;
   }
 }
